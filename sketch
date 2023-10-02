@@ -1,0 +1,19 @@
+function setup() {
+  createCanvas(900, 900);
+  background(" #5A5C5C");
+}
+
+function draw() {
+  
+
+stroke("black");
+fill("black");
+
+ // console.log(mouseIsPressed);
+  
+  if (mouseIsPressed) {
+  rect(mouseX, mouseY, 1, 1);
+  }
+}
+
+
